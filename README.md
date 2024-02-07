@@ -90,6 +90,9 @@ The GPIO platform driver exposes the following attributes for each GPIO pin unde
 
 For example, to set the direction or value of GPIO 17, users would access `/sys/class/gpio_drv/GPIO17/direction` or `/sys/class/gpio_drv/GPIO17/value`, respectively.
 
+![GPIO-Pinout-Diagram-2](https://github.com/MohamedSa3eed/yocto-gpio_kernel_module/assets/88633195/91a66b66-2097-4850-9d93-071d49e81eb6)
+
+
 Ensure that users have the necessary permissions to read from and write to these attributes, typically requiring superuser (root) privileges or appropriate permissions for the user.
 
 ### Modifying Values
